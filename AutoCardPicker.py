@@ -179,7 +179,7 @@ while True:
         small_gray = cv2.cvtColor(small_img, cv2.COLOR_BGR2GRAY)
 
         result = cv2.matchTemplate(full_gray, small_gray, cv2.TM_CCOEFF_NORMED)
-        threshold = 0.85
+        threshold = 0.7
         loc = np.where(result >= threshold)
 
         for pt in zip(*loc[::-1]):
