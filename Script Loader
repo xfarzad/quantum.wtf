@@ -3,5 +3,5 @@ local _______ = true
 if _______ then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d60b9e35101238ddd58cff2d3c8d0f4d.lua"))()
 else
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/201571961e1e68739113f0bf1d924b00.lua"))() -- replace
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/verified/201571961e1e68739113f0bf1d924b00.lua"))()
 end
